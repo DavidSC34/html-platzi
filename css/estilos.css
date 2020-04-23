@@ -29,4 +29,13 @@ h3 h4,
 h5,
 h6 {
   font-family: 'Fjalla One', sans-serif;
+  font-weight: 400; /*400 su shortcut es normal */
+  /*font-style: italic; cursiva de forma virtual, falta imoirtar la fuente de este tipo*/
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.5; /*150%*/
+  letter-spacing: -0.2px; /* 20% de un pixel menos*/
+  /* text-transform: capitalize; uppercase, lowercase,etc*/
+  /* text-decoration: underline; */
 }
