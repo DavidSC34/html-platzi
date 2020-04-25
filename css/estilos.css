@@ -49,6 +49,10 @@ h1 {
   background-repeat: no-repeat;
   background-position-x: right;
 }
+.project {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
 .hero h1 strong {
   color: #026fff;
 }
