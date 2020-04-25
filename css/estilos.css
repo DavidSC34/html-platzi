@@ -37,6 +37,7 @@ h1 {
   line-height: 1.5; /*150%*/
   letter-spacing: -0.2px; /* 20% de un pixel menos*/
   color: white;
+  /* margin: 100px 150px 70px 30px; */
   /* text-transform: capitalize; uppercase, lowercase,etc*/
   /* text-decoration: underline; */
 }
@@ -52,6 +53,7 @@ h1 {
 .project {
   border: 1px solid gray;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 .hero h1 strong {
   color: #026fff;
