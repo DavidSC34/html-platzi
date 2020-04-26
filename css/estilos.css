@@ -38,6 +38,7 @@ h1 {
   line-height: 1.5; /*150%*/
   letter-spacing: -0.2px; /* 20% de un pixel menos*/
   color: white;
+  margin: 0;
   /* margin: 100px 150px 70px 30px; */
   /* text-transform: capitalize; uppercase, lowercase,etc*/
   /* text-decoration: underline; */
@@ -50,6 +51,8 @@ h1 {
   background-size: 500px 300px;
   background-repeat: no-repeat;
   background-position-x: right;
+  display: flex;
+  align-items: center;
 }
 .portfolio {
   background: #fafafa;
@@ -76,7 +79,8 @@ h1 {
   color: white;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  align-items: center;
+  height: 70px;
 }
 .header a {
   color: white;
@@ -122,4 +126,19 @@ figure {
   margin: 5px;
   border: 1px solid red;
   flex-shrink: 0; /*capacidad de encogimiento, que no se modificque*/
+}
+
+.footer {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+.footer a {
+  color: white;
 }
